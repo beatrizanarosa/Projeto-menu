@@ -1,0 +1,226 @@
+/* DOCUMENTO CSS */ 
+/* RESET CSS */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+header {
+	height: 150px;
+	background-color:#070707;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+header figure {
+	margin-top: 0px
+}
+
+footer {
+	height: 100px;
+	background-color: 2685ab;
+}
+
+.Biografia{
+	font-family: "Century Gothic";
+	color:#8C261C;
+	margin-left: 10px;
+}
+.conteudo{
+	display: flex;
+    justify-content: space-around;
+}
+.conteudo img {
+	margin: 30px;
+}
+.conteudo p {
+	margin-top: 40px;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 17px;
+	margin-right: 30px;
+}
+.Música{
+	font-family: "Century Gothic";
+	color: #8C261C;
+	margin-left: 10px;
+}
+
+.conteudo1{
+	display: flex;
+    justify-content: space-around;	
+}
+.conteudo1 img {
+	margin: 30px;
+}
+.conteudo1 p {
+	margin-top: 40px;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 17px;
+	margin-right: 30px;
+}
+
+.conteudo2{
+	display: flex;
+    justify-content: space-around;
+}
+.conteudo2 img {
+	margin: 30px;
+}
+.conteudo2 p {
+	margin: 60px;
+	text-align: left;
+	margin: 40px;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 17px;
+
+}
+.Outros{
+	font-family: "Century Gothic";
+	color: #8C261C;
+	margin-left: 10px;
+}
+.conteudo3{
+	display: flex;
+    justify-content: space-around;
+}
+.conteudo3{
+	display: flex;
+    justify-content: space-around;	
+}
+.conteudo3 img {
+	margin: 30px;
+}
+.conteudo3 p {
+	margin: 40px;
+	margin: 40px;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 17px;	
+	margin-left: -10px;
+}
+.conteudo4{
+	display: flex;
+    justify-content: space-around;	
+}
+.conteudo4 img {
+	margin: 30px;
+}
+.conteudo4 p {
+	margin: 40px;
+	text-align: left;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 17px;
+}
+
+.biografiabox{
+	background-color:#D1A9A1;
+	border-radius: 20px;
+	display: flex;
+	margin-top: 30px;
+	color: #591D14;
+	box-shadow: 0 5px 4px #AB8C81;
+}
+.biografiabox:hover{
+	transition: 0.3s;
+	color: #8C261C;
+}
+.musicabox{
+	background-color:#D1A9A1;
+	border-radius: 20px;
+	display: flex;
+	margin-top: 30px;
+	color: #591D14;
+	box-shadow: 0 5px 4px #AB8C81;
+	
+}
+.musicabox:hover{
+	transition: 0.3s;
+	color: #8C261C;
+}
+.outrosbox{
+	background-color:#D1A9A1;
+	border-radius: 20px;
+	display: flex;
+	margin-top: 30px;
+	color: #591D14;
+	box-shadow: 0 5px 4px #AB8C81;
+}
+.outrosbox:hover{
+	transition: 0.3s;
+	color: #8C261C;
+}
+main {
+	height: 800px; 
+	background-color:#DFC2BD;
+	padding: 20px;
+	font-family: 'DM Sans', sans-serif;
+}
+
+footer {
+	height: 130px;
+	background-color:#8C261C;
+	display: flex;
+
+}
+footer p{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color:#FFEFED;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+footer img{
+	padding-top: 10px;
+	margin-left: 20px;
+}
+.linhatitulo1 {
+	position: relative;
+	left: 160px;
+	top: -17px;
+	width: 89%;
+	border-color:#8C261C;
+}
+.linhatitulo2 {
+	position: relative;
+	left: 135px;
+	top: -17px;
+	width: 89%;
+	border-color:#8C261C;
+}
+.linhatitulo3 {
+	position: relative;
+	left: 125px;
+	top: -17px;
+	width: 89%;
+	border-color:#8C261C;
+}
+
+
+/*HEADER*/
+
+.menu {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#7B001A;
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+    display: inline;
+}
+.menu ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    padding: 18px 50px 18px 50px;
+    transition: 0.3s;
+}
+.menu ul li a:hover {
+	background-color:#4B000B;
+}
+
+
